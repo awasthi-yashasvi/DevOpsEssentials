@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: deployment
+metadata:
+  name: koa-web-app
+  labels: web
+spec:
+  containers:
+    name: 
