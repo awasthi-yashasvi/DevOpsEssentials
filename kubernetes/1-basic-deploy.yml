@@ -5,7 +5,6 @@ metadata:
   labels: web
 spec:
   containers:
-    name: koa-kube
-    images: coolsteam/koa-app:latest
-    readiness:
+  - name: koa-kube
+    image: coolsteam/koa-app:latest
 
